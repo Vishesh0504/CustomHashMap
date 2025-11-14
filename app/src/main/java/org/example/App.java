@@ -3,11 +3,6 @@
  */
 package org.example;
 
-import java.util.Map;
-
-public class CustomHashMap implements Map<K,V>{
-
-}
 
 public class App {
     public String getGreeting() {
@@ -16,5 +11,8 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        CustomHashMap<Integer, Integer> mp = new CustomHashMap<>();
+
     }
 }
